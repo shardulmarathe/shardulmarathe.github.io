@@ -1,0 +1,29 @@
+body{
+    margin: 8px;
+}
+.container {
+    background-color: rgb(141, 230, 163);
+    font-size:0%
+}
+.titlepart {
+    font-size: 1.5vw
+}
+
+.header-sections {
+    display: flex;
+    justify-content:space-between;
+    padding: 38px;
+    font-size: 2.5vw;
+    height: 22px;
+    font-style: oblique;
+}
+
+.header-sections a{
+    color:rgb(4, 101, 158);
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.header-sections a:hover{
+    color:rgb(236, 67, 109);
+}
