@@ -1,12 +1,16 @@
 body{
     margin: 8px;
+    padding: 0.5px;
 }
 .container {
     background-color: rgb(141, 230, 163);
-    font-size:0%
+    font-size:0%;
+    display: grid;
+    grid-template-columns: 1fr;
+
 }
 .titlepart {
-    font-size: 1.5vw
+    font-size: 1.5vw;
 }
 
 .header-sections {
@@ -26,4 +30,22 @@ body{
 
 .header-sections a:hover{
     color:rgb(236, 67, 109);
+}
+
+.Intro-items-wrapper{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.Intro-item-wrapper{
+    position: relative;
+
+}
+
+.intro-img-background{
+    height: 10px;
+    width: 25%;
+    background-size: cover; 
+    background-position:center;
+    background-repeat: no-repeat;
+
 }
