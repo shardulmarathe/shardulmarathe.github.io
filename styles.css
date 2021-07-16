@@ -15,6 +15,15 @@ body {
     padding: 38px;
 }
 
+.rightside {
+    font-size: 2vw;
+    color:darkorchid;
+    display: flex;
+   justify-content: center;
+   justify-content: space-evenly;
+}
+
+
 .leftside {
     display: flex;
 }
@@ -24,11 +33,6 @@ body {
     font-size: 1.5vw;
 }
 
-.navigation-link {
-    height: 22px;
-    border-bottom: solid transparent;
-    transition: border-bottom 0.5s;
-}
 
 .navigation-link a{
     color: teal;
@@ -36,9 +40,7 @@ body {
     transition: color 0.5s;
 }
 
-.navigation-link:hover {
-    border-bottom: 1px solid peru;
-}
+
 
 .navigation-link a:hover {
     color: black;
